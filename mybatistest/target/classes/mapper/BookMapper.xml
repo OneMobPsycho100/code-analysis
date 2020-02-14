@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper namespace="com.cmz.dao.BookMapper">
+    <select id="selectBookById" resultType="com.cmz.entity.Book">
+        select * from book where bookid=%d
+    </select>
+</mapper>
